@@ -1,0 +1,36 @@
+# Site settings
+title: 博乎
+url: "http://zhaoyuxiang.cn"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
+baseurl: "" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
+#timezone: Asia/Chongqing
+description: 赵宇翔的个人网站、个人博客。前端编程经验总结分享。HTML、HTML5、CSS、CSS3、JavaScript、JQuery。前端工程师。
+# Your information
+email: me@zhaoyuxiang.cn
+author: 天道总司
+avatar: "https://avatars0.githubusercontent.com/u/17525377?v=3&s=460"
+profile: 聪明在于勤奋，天才在于积累。
+#twitter_username: twitter_username
+github_username:  Clark-Zhao
+
+# Comment Service (Disqus or 多说)
+#  choose one and un-comment the line to active it
+#disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
+duoshuo_shortname: clark-zhao  
+# get one: http://duoshuo.com/create-site/
+
+permalink: /archivers/:title
+gems:
+ - jekyll-paginate
+ - jekyll-gist
+ - jemoji
+
+# Build settings
+paginate: 3
+paginate_path: "/page:num"
+
+highlighter: rouge
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

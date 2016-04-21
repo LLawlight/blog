@@ -1,0 +1,194 @@
+html, body, header, main, footer, h1, p, nav, div, ul, li, a, img, span {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; }
+
+body {
+  min-width: 480px; }
+
+.clearfix {
+  *zoom: 1; }
+
+.clearfix:before, .clearfix:after {
+  display: table;
+  line-height: 0;
+  content: ""; }
+
+.clearfix:after {
+  clear: both; }
+
+#header {
+  width: 100%;
+  height: 45px;
+  background: #0767c8;
+  background: -webkit-linear-gradient(top, #086ed5, #055db5);
+  background: linear-gradient(to bottom, #086ed5, #055db5);
+  border-bottom: 1px solid #044e97;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  color: #fff; }
+  #header .headerWrap {
+    display: block;
+    height: inherit;
+    margin: 0 auto;
+    position: relative; }
+    @media screen and (min-width: 960px) {
+      #header .headerWrap {
+        width: 960px; } }
+    #header .headerWrap h1, #header .headerWrap nav {
+      display: inline-block; }
+  #header h1 {
+    height: inherit;
+    line-height: 45px;
+    font-size: 45px;
+    font-weight: normal; }
+  #header nav {
+    vertical-align: top;
+    margin-left: 18px; }
+  #header li {
+    list-style: none;
+    float: left; }
+    #header li a:hover {
+      background-color: #085FB3; }
+  #header a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+    height: 45px;
+    width: 54px;
+    line-height: 45px; }
+  #header .master {
+    width: 120px;
+    float: right; }
+    #header .master .avatarWrap {
+      height: 27px;
+      width: 27px;
+      overflow: hidden;
+      margin-top: 9px;
+      margin-right: 9px;
+      border-radius: 3px;
+      float: left; }
+    #header .master span {
+      float: left;
+      display: block;
+      line-height: 45px;
+      vertical-align: middle; }
+
+main {
+  margin: 0 auto;
+  padding: 25px 0 50px 0; }
+  @media screen and (min-width: 960px) {
+    main {
+      width: 960px; } }
+
+.content {
+  float: left; }
+  @media screen and (min-width: 960px) {
+    .content {
+      width: 960px; } }
+  .content .content-inner-title {
+    margin-bottom: 10px;
+    color: #666; }
+  .content .content-inner {
+    overflow: hidden; }
+    @media screen and (min-width: 768px) {
+      .content .content-inner {
+        margin-right: 328px; } }
+  .content .content-main {
+    border-top: 1px solid #ccc; }
+
+.sidebar {
+  width: 270px;
+  float: left;
+  margin-left: -270px; }
+
+.post-link {
+  display: inline-block;
+  margin-top: 10px; }
+
+.post-list li {
+  list-style: none;
+  padding: 10px 0;
+  border-top: 1px solid #eee; }
+  .post-list li a {
+    color: #259;
+    text-decoration: none; }
+  .post-list li .post-meta {
+    font-size: 13px;
+    color: #222;
+    height: 22px;
+    margin-bottom: 2px; }
+  .post-list li .post-excerpt {
+    color: #222;
+    font-size: 13px; }
+
+.pagination {
+  padding-top: 50px;
+  border-top: 1px solid #eee; }
+  .pagination a {
+    border: 1px solid #eee;
+    color: #259;
+    text-decoration: none;
+    margin: 0 10px; }
+  .pagination span {
+    border: 1px solid #eee;
+    color: #222;
+    margin: 0 10px; }
+
+.footer-inner {
+  font-size: 13px;
+  color: #666;
+  height: 22px;
+  padding: 20px 15px;
+  border-top: 1px solid #ccc;
+  margin: 0 auto; }
+  @media screen and (min-width: 960px) {
+    .footer-inner {
+      width: 960px; } }
+  .footer-inner span {
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; }
+  .footer-inner ul {
+    float: right;
+    margin-right: 30px; }
+    .footer-inner ul li + li::before {
+      content: "|";
+      margin-right: 3px;
+      padding: 0px 3px;
+      font-family: Arial;
+      color: #bbbbbb; }
+    .footer-inner ul li {
+      float: left;
+      list-style: none; }
+      .footer-inner ul li a {
+        text-decoration: none;
+        color: #666; }
+      .footer-inner ul li a:hover {
+        text-decoration: underline; }
+
+@media screen and (max-width: 960px) {
+  .headerWrap, main, .content, .footer-inner {
+    width: 100%; } }
+@media screen and (max-width: 768px) {
+  .sidebar {
+    display: none; }
+
+  .content-inner {
+    margin-right: 0; } }
+.post-title {
+  font-size: 32px;
+  line-height: 45px;
+  font-weight: 700; }
+
+.post-meta {
+  margin: 22px 0 0;
+  height: 36px;
+  line-height: 36px; }
+
+.post-content {
+  margin: 30px 0; }
+  .post-content p {
+    margin: 20px 0; }
+
+/*# sourceMappingURL=main.css.map */

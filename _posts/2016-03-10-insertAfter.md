@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "原生JS之insertAfter：在现有元素后插入一个新元素"
-author: 赵宇翔
+author: 天道总司
 date:   2016-03-10
 categories: JavaScript
 permalink: /archivers/insertAfter

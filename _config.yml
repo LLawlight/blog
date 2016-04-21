@@ -3,11 +3,10 @@ title: 博乎
 url: "http://zhaoyuxiang.cn/blog"    # the protocol and hostname of your site, eg. `http://clark-zhao.github.io`
 baseurl: "/blog" # the prefix of your site uri, eg. `/jekyll-theme-BoHu` or just one slash `/`
 #timezone: Asia/Shanghai
-description: 赵宇翔的个人网站、个人博客。前端编程经验总结分享。HTML、HTML5、CSS、CSS3、JavaScript、JQuery。前端工程师。
+description: 天道总司的个人博客网站,前端HTML、HTML5、CSS、CSS3、JavaScript、JQuery等编程经验总结分享。
 # Your information
 email: me@zhaoyuxiang.cn
 author: 天道总司
-avatar: "https://avatars0.githubusercontent.com/u/17525377?v=3&s=460"
 profile: 聪明在于勤奋，天才在于积累。
 #twitter_username: twitter_username
 github_username:  Clark-Zhao

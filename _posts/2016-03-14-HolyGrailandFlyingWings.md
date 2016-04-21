@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "圣杯布局与双飞翼布局的相同点与不同点"
-author: 赵宇翔
+author: 天道总司
 date:   2016-03-14
 categories: CSS
 permalink: /archivers/HolyGrailandFlyingWings

@@ -3,26 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>blog</title>
+  <title>{% if page.title %}{{ page.title }} « {{ site.title }}{% else %}{{ site.title }}{% endif %}|{{ site.author }}的博客</title>
+  <link rel="shortcut icon" type="image/x-icon" href="{{ "/assets/favicon.jpg" | prepend: site.baseurl }}"> 
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <link rel="stylesheet" type="text/css" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <script type="text/javascript" src="http://api.youziku.com/webfont/FastJS/yzk_80359A045057B6A0"></script>
+  <script type="text/javascript" src="http://youzikuwebfont.oss-cn-beijing.aliyuncs.com/api.lib.min.js"></script>
 </head>
 <body>
   <header id="header">
     <div class="headerWrap">
-      <h1 class="myFont">博乎</h1>
+      <a class="myFont title" href="{{ "/index.html" | prepend: site.baseurl }}">{{ site.title }}</a>
       <nav>
         <ul>
           <li><a href="#" class="myFont">首页</a></li>
-          <li><a href="#" class="myFont">博客</a></li>
+          <li><a href="{{ "/index.html" | prepend: site.baseurl }}" class="myFont">博客</a></li>
           <li><a href="#" class="myFont">关于</a></li>
           <li><a href="#" class="myFont">联系</a></li>
         </ul>
       </nav>
       <a href="#" class="master">
         <div class="avatarWrap">
-          <img src="{{ "/assets/avatar.jpg" | prepend: site.baseurl }}" alt="站长头像" style="max-width: 27px;" />
-        </div><span class="myFont">天道总司</span>
+          <img src="{{ "/assets/avatar.jpg" | prepend: site.baseurl }}" alt="{{ site.author }}" style="max-width: 27px;" />
+        </div><span class="myFont">{{ site.author }}</span>
       </a>
     </div>
   </header>

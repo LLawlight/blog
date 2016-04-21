@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "原生JS之addLoadEvent：共享onload事件"
-author: 赵宇翔
+author: 天道总司
 date:   2016-03-09
 categories: JavaScript
 permalink: /archivers/addLoaEvent

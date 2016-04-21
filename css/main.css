@@ -2,8 +2,11 @@
 html, body, header, main, footer, h1, p, nav, div, ul, li, a, img, span {
   margin: 0;
   padding: 0;
-  font-size: 14px;
+  font-size: 18px;
   font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; }
+
+a {
+  text-decoration: none; }
 
 .clearfix {
   *zoom: 1; }
@@ -33,13 +36,14 @@ html, body, header, main, footer, h1, p, nav, div, ul, li, a, img, span {
     @media screen and (min-width: 960px) {
       #header .headerWrap {
         width: 960px; } }
-    #header .headerWrap h1, #header .headerWrap nav {
+    #header .headerWrap .title, #header .headerWrap nav {
       display: inline-block; }
-  #header h1 {
+  #header .title {
     height: inherit;
     line-height: 45px;
     font-size: 45px;
-    font-weight: normal; }
+    font-weight: normal;
+    color: #fff; }
   #header nav {
     vertical-align: top;
     margin-left: 18px; }
@@ -48,18 +52,18 @@ html, body, header, main, footer, h1, p, nav, div, ul, li, a, img, span {
     float: left; }
     #header li a:hover {
       background-color: #085FB3; }
-  #header a {
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    text-align: center;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
-    height: 45px;
-    width: 54px;
-    line-height: 45px; }
+    #header li a {
+      display: inline-block;
+      color: #fff;
+      text-align: center;
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+      height: 45px;
+      width: 54px;
+      line-height: 45px; }
   #header .master {
     width: 120px;
-    float: right; }
+    float: right;
+    color: #fff; }
     #header .master .avatarWrap {
       height: 27px;
       width: 27px;
@@ -94,31 +98,53 @@ main {
       margin-right: 328px; } }
   .content .content-main {
     border-top: 1px solid #ccc; }
+    .content .content-main .post-link {
+      display: inline-block;
+      margin-top: 10px; }
+    .content .content-main .post-list li {
+      list-style: none;
+      padding: 10px 0;
+      border-top: 1px solid #eee; }
+      .content .content-main .post-list li a {
+        color: #259; }
+      .content .content-main .post-list li .post-meta {
+        font-size: 13px;
+        color: #222;
+        height: 22px;
+        margin-bottom: 2px; }
+      .content .content-main .post-list li .post-excerpt {
+        color: #222;
+        font-size: 13px; }
 
 .sidebar {
   width: 270px;
   float: left;
   margin-left: -270px; }
-
-.post-link {
-  display: inline-block;
-  margin-top: 10px; }
-
-.post-list li {
-  list-style: none;
-  padding: 10px 0;
-  border-top: 1px solid #eee; }
-  .post-list li a {
-    color: #259;
-    text-decoration: none; }
-  .post-list li .post-meta {
-    font-size: 13px;
+  .sidebar .avatar {
+    display: block;
+    margin: 0 auto;
+    max-width: 270px;
+    border-radius: 3px; }
+  .sidebar .name, .sidebar p {
+    text-align: center;
+    margin: 10px 0; }
+  .sidebar .contact a {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: #0664C2;
+    color: #fff;
+    border-radius: 3px; }
+  .sidebar .col-box-title {
+    border-top: 1px solid #eee;
+    padding-top: 10px; }
+  .sidebar li {
     color: #222;
-    height: 22px;
-    margin-bottom: 2px; }
-  .post-list li .post-excerpt {
-    color: #222;
-    font-size: 13px; }
+    margin: 5px 0; }
+    .sidebar li a {
+      color: #0664C2; }
+    .sidebar li a:hover {
+      text-decoration: underline; }
 
 .pagination {
   padding-top: 50px;
@@ -126,7 +152,6 @@ main {
   .pagination a {
     border: 1px solid #eee;
     color: #259;
-    text-decoration: none;
     margin: 0 10px; }
   .pagination span {
     border: 1px solid #eee;
@@ -158,7 +183,6 @@ main {
       float: left;
       list-style: none; }
       .footer-inner ul li a {
-        text-decoration: none;
         color: #666; }
       .footer-inner ul li a:hover {
         text-decoration: underline; }
@@ -191,6 +215,9 @@ main {
   .post .post-content p {
     margin: 20px 0;
     line-height: 1.5; }
+    .post .post-content p img {
+      display: inline-block;
+      max-width: 100%; }
 
 pre, pre code {
   color: #fafafa;

@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>blog</title>
-  <link rel="stylesheet" type="text/css" href="/blog/css/main.css">
+  <link rel="stylesheet" type="text/css" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <script type="text/javascript" src="http://api.youziku.com/webfont/FastJS/yzk_80359A045057B6A0"></script>
 </head>
 <body>
@@ -20,7 +21,7 @@
       </nav>
       <a href="#" class="master">
         <div class="avatarWrap">
-          <img src="/blog/assets/avatar.jpg" alt="站长头像" style="max-width: 27px;" />
+          <img src="{{ "/assets/avatar.jpg" | prepend: site.baseurl }}" alt="站长头像" style="max-width: 27px;" />
         </div><span class="myFont">天道总司</span>
       </a>
     </div>

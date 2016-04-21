@@ -1,8 +1,8 @@
 # Site settings
 title: 博乎
-url: "http://zhaoyuxiang.cn"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
-baseurl: "/blog" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
-#timezone: Asia/Chongqing
+url: "http://zhaoyuxiang.cn/blog"    # the protocol and hostname of your site, eg. `http://clark-zhao.github.io`
+baseurl: "/blog" # the prefix of your site uri, eg. `/jekyll-theme-BoHu` or just one slash `/`
+#timezone: Asia/Shanghai
 description: 赵宇翔的个人网站、个人博客。前端编程经验总结分享。HTML、HTML5、CSS、CSS3、JavaScript、JQuery。前端工程师。
 # Your information
 email: me@zhaoyuxiang.cn

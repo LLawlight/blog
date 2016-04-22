@@ -1,3 +1,15 @@
-<script type="text/javascript"> $youzikuapi.asyncLoad("http://api.youziku.com/webfont/FastJS/yzk_80359A045057B6A0", function () { $youziku.load(".myFont", "6dee8aeae5404ac7b4184b79262d4e1a", "NaiYou"); /*$youziku.load("#id2", "6dee8aeae5404ac7b4184b79262d4e1a", "NaiYou");*/ /*$youziku.load(".class1", "6dee8aeae5404ac7b4184b79262d4e1a", "NaiYou");*/ /*$youziku.load(".class2", "6dee8aeae5404ac7b4184b79262d4e1a", "NaiYou");*/ /*．．．*/ $youziku.draw(); }) </script>
+<script type="text/javascript"> $youzikuapi.asyncLoad("http://api.youziku.com/webfont/FastJS/yzk_80359A045057B6A0", function () { $youziku.load(".myFont", "6dee8aeae5404ac7b4184b79262d4e1a", "NaiYou"); /*$youziku.load("#id2", "6dee8aeae5404ac7b4184b79262d4e1a", "NaiYou");*/ /*$youziku.load(".class1", "6dee8aeae5404ac7b4184b79262d4e1a", "NaiYou");*/ /*$youziku.load(".class2", "6dee8aeae5404ac7b4184b79262d4e1a", "NaiYou");*/ /*．．．*/ $youziku.draw(); }) 
+$(function() {
+    $(window).scroll(function() {
+        if ($(window).scrollTop() > 1000)
+            $('div.go-top').show();
+        else
+            $('div.go-top').hide();
+    });
+    $('div.go-top').click(function() {
+        $('html, body').animate({scrollTop: 0}, 200);
+    });
+});
+</script>
 </body>
 </html>

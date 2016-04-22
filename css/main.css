@@ -260,6 +260,49 @@ div.error {
       div.error .contentmain .link a {
         color: #105cb6; }
 
+/* 杩斿洖椤堕儴鎸夐挳 */
+div.go-top {
+  display: none;
+  opacity: 1;
+  z-index: 999999;
+  position: fixed;
+  bottom: 113px;
+  left: 50%;
+  margin-left: 230px;
+  width: 38px;
+  height: 38px;
+  background-color: #ddd;
+  border-radius: 3px;
+  cursor: pointer; }
+
+div.go-top:hover {
+  background-color: #e2e2e2; }
+  div.go-top:hover div.arrow {
+    border-bottom-color: #bbb; }
+  div.go-top:hover div.stick {
+    background-color: #bbb; }
+
+div.go-top div.arrow {
+  position: absolute;
+  left: 10px;
+  top: -1px;
+  width: 0;
+  height: 0;
+  border: 9px solid transparent;
+  border-bottom-color: #aaa; }
+
+div.go-top div.stick {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  width: 8px;
+  height: 14px;
+  display: block;
+  background-color: #aaa;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px; }
+
 pre, pre code {
   color: #fafafa;
   background-color: #223; }

@@ -1,7 +1,7 @@
 html,body,header,main,footer,h1,p,nav,div,ul,li,a,img,span{
 	margin: 0;
 	padding: 0;
-	font-size: 16px;
+	font-size: 18px;
 	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 a{text-decoration: none;}
@@ -214,7 +214,7 @@ main{
 }
 @media screen and(max-width: 960px){
 	.headerWrap,main,.footer-inner{
-		width: 95%;
+		width: 98%;
 	}
 	.content{
 		width: 100%;
@@ -252,6 +252,50 @@ main{
 				max-width: 100%;
 			}
 		}
+	}
+}
+.errorWrap{
+	background: #eff2f5;
+}
+div.error{
+	width: 404px;
+	margin: 169px auto 0;
+	@media screen and(max-width: 404px){
+		width: 98%;
+	}
+	h1{
+		font-size: 1.8em;
+	    line-height: 1.2;
+	    margin: 0 0 .33em .33em;
+	    .logo{
+	    	font-size: 1.5em;
+	    	line-height: 1.2;
+	    	color: #222;
+	    }
+	}
+	.contentmain{
+		padding: 2em 1.25em;
+	    border: 1px solid #babbbc;
+	    border-radius: 5px;
+	    background: #f7f7f7;
+	    text-align: center;
+	    p{
+    	    margin: 0 0 1.7em;
+			color: #999;
+			strong{
+				font-size: 1.1em;
+    			color: #000;
+			}
+	    }
+	    hr{
+	    	margin: 1.3em 0;
+	    }
+	    .link{
+	    	margin-bottom: 0;
+	    	a{
+	    		color: #105cb6;
+	    	}
+	    }
 	}
 }
 pre, pre code {

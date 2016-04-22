@@ -2,7 +2,7 @@
 html, body, header, main, footer, h1, p, nav, div, ul, li, a, img, span {
   margin: 0;
   padding: 0;
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; }
 
 a {
@@ -191,7 +191,7 @@ main {
 
 @media screen and (max-width: 960px) {
   .headerWrap, main, .footer-inner {
-    width: 95%; }
+    width: 98%; }
 
   .content {
     width: 100%; }
@@ -220,6 +220,42 @@ main {
     .post .post-content p img {
       display: inline-block;
       max-width: 100%; }
+
+.errorWrap {
+  background: #eff2f5; }
+
+div.error {
+  width: 404px;
+  margin: 169px auto 0; }
+  @media screen and (max-width: 404px) {
+    div.error {
+      width: 98%; } }
+  div.error h1 {
+    font-size: 1.8em;
+    line-height: 1.2;
+    margin: 0 0 .33em .33em; }
+    div.error h1 .logo {
+      font-size: 1.5em;
+      line-height: 1.2;
+      color: #222; }
+  div.error .contentmain {
+    padding: 2em 1.25em;
+    border: 1px solid #babbbc;
+    border-radius: 5px;
+    background: #f7f7f7;
+    text-align: center; }
+    div.error .contentmain p {
+      margin: 0 0 1.7em;
+      color: #999; }
+      div.error .contentmain p strong {
+        font-size: 1.1em;
+        color: #000; }
+    div.error .contentmain hr {
+      margin: 1.3em 0; }
+    div.error .contentmain .link {
+      margin-bottom: 0; }
+      div.error .contentmain .link a {
+        color: #105cb6; }
 
 pre, pre code {
   color: #fafafa;

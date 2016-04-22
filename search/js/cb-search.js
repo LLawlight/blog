@@ -75,7 +75,7 @@
                     afterSelect: function (item) {
 						$(".search-tool").css("display", "none");
                         show = false;
-                        window.location.href = (urls[names.indexOf(item)]);
+                        window.location.href = "/blog"+(urls[names.indexOf(item)]);
                         return item;
                     }
                 });

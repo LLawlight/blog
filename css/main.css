@@ -6,7 +6,7 @@ html, body, header, main, footer, h1, p, nav, div, ul, li, a, img, span {
   font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none !important; }
 
 .clearfix {
   *zoom: 1; }
@@ -129,16 +129,11 @@ main {
     text-align: center;
     margin: 10px 0; }
   .sidebar .contact a {
-    font-size: 30px;
+    font-size: 25px;
     display: inline-block;
     padding: 5px;
-    margin: 5px 0;
-    border: 1px solid #045bb2;
-    background: #0e78e7;
-    background: -webkit-linear-gradient(top, #0e7bef, #0d73da);
-    background: linear-gradient(to bottom, #0e7bef, #0d73da);
-    color: #fff;
-    border-radius: 4px; }
+    margin: 5px;
+    color: #0e78e7; }
   .sidebar .col-box-title {
     border-top: 1px solid #eee;
     padding: 20px 0 10px 0; }
@@ -149,7 +144,7 @@ main {
     .sidebar li a {
       color: #0664C2; }
     .sidebar li a:hover {
-      text-decoration: underline; }
+      text-decoration: underline !important; }
 
 .pagination {
   padding-top: 50px;
@@ -177,7 +172,7 @@ main {
     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; }
   .footer-inner ul {
     float: right;
-    margin-right: 20px; }
+    margin-right: 15px; }
     .footer-inner ul li + li::before {
       content: "|";
       margin-right: 3px;
@@ -304,8 +299,8 @@ div.go-top div.stick {
   border-radius: 1px; }
 
 pre, pre code {
-  color: #fafafa;
-  background-color: #223; }
+  color: #fafafa !important;
+  background-color: #223 !important; }
 
 pre {
   overflow-x: auto;

@@ -3,9 +3,10 @@
 		<div class="footer-inner">
 			<span class="myFont">&copy; 2016 {{ site.author }}</span>
 			<ul>
-				<li><a href="#" class="myFont">首页</a></li>
+				<li><a href="{{ "/home" | prepend: site.baseurl }}" class="myFont">首页</a></li>
 				<li><a href="{{ "/index.html" | prepend: site.baseurl }}" class="myFont">博客</a></li>
-				<li><a href="#" class="myFont">关于</a></li>
+				<li><a href="{{ "/about" | prepend: site.baseurl }}" class="myFont">关于</a></li>
+				<li><a href="javascript:scroll(0,0)" class="myFont">返回顶部</a></li>
 			</ul>
 		</div>
 	</footer>

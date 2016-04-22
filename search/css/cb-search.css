@@ -31,13 +31,15 @@
         @media screen and (max-width: 767px) {
             .dropdown-menu {
                 font-size: 20px;
-                width: 250px;
             }
 			.search-tool ul{ 
-				width: 96% ;
+				width: 250px;
 				white-space:nowrap; 
 				overflow:hidden; 
-				text-overflow: ellipsis;
+                li a{
+                    display: block;
+				    text-overflow: ellipsis;
+                }
 			}
 
             .search-content {

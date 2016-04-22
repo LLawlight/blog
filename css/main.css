@@ -95,7 +95,7 @@ main {
   .content .content-inner-title {
     margin-bottom: 10px;
     color: #666; }
-  @media screen and (min-width: 960px) {
+  @media screen and (min-width: 800px) {
     .content .content-inner {
       margin-right: 328px; } }
   .content .content-main {
@@ -174,10 +174,15 @@ main {
     .footer-inner {
       width: 960px; } }
   .footer-inner span {
+    display: block;
+    float: left;
     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; }
   .footer-inner ul {
     float: right;
     margin-right: 15px; }
+    @media screen and (max-width: 424px) {
+      .footer-inner ul {
+        float: left; } }
     .footer-inner ul li + li::before {
       content: "|";
       margin-right: 3px;
@@ -192,20 +197,20 @@ main {
       .footer-inner ul li a:hover {
         text-decoration: underline; }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 800px) {
   .headerWrap, main, .footer-inner {
     width: 98%; }
 
   .content {
     width: 100%; }
 
-  .sidebar {
+  .content-inner {
+    margin-right: 0; }
+
+  .master {
     display: none; }
 
-  .content-inner {
-    margin-right: 0; } }
-@media screen and (max-width: 800px) {
-  .master {
+  .sidebar {
     display: none; } }
 .post .post-title {
   font-size: 32px;

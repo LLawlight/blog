@@ -1,6 +1,7 @@
   <header id="header">
-    <div class="headerWrap">
+    <div class="headerWrap clearfix">
       <a class="myFont title" href="{{ "/index.html" | prepend: site.baseurl }}">{{ site.title }}</a>
+
       <nav>
         <ul>
           <li><a href="{{ "/about/index.html" | prepend: site.baseurl }}" class="myFont">首页</a></li>
@@ -8,6 +9,27 @@
           <li><a href="{{ "/about" | prepend: site.baseurl }}" class="myFont">关于</a></li>
         </ul>
       </nav>
+
+<div class="search-tool" style="float: left;height: 45px;line-height: 45px;margin-left: 12px;">
+    <input type="text" class="form-control search-content" id="search-content" style="display: inline-block !important; 
+    color: #49525c;
+    font-size: 14px;
+    line-height: 17px;
+    background-color: #e1eaf2;
+    border: 1px solid #045bb2;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,.2),0 1px 0 rgba(255,255,255,.1);
+    outline: 0;
+    box-sizing: border-box;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;" placeholder="搜索你感兴趣的内容..." />
+</div>
+
+<link rel="stylesheet" href="{{ "/search/css/cb-search.css" | prepend: site.baseurl }}">
+
+<script src="{{ "/search/js/bootstrap3-typeahead.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/search/js/cb-search.js" | prepend: site.baseurl }}"></script>
+
       <a href="#" class="master">
         <div class="avatarWrap">
           <img src="{{ "/assets/avatar.jpg" | prepend: site.baseurl }}" alt="{{ site.author }}" style="max-width: 27px;" />
@@ -15,26 +37,6 @@
       </a>
     </div>
   </header>
-
-<div class="search-tool" style="position: fixed; top: 0px ; bottom: 0px; left: 0px; right:  0px;
-      opacity: 0.95; background-color: #111111; z-index: 9999; display: none;">
-    <input type="text" class="form-control search-content" id="search-content" style="position: fixed; top: 60px" 
-           placeholder="文章标题 类别"
-           >
-
-    <div style="position: fixed; top: 16px; right: 16px;">
-        <img src="{{ "/search/img/cb-close.png" | prepend: site.baseurl }}"  id="close-btn"/>
-    </div>
-</div>
-
-<div style="position: fixed; right: 16px; bottom: 20px;">
-    <img src="{{ "/search/img/cb-search.png" | prepend: site.baseurl }}"  id="search-btn"  title="双击ctrl试一下"/>
-</div>
-
-<link rel="stylesheet" href="{{ "/search/css/cb-search.css" | prepend: site.baseurl }}">
-
-<script src="{{ "/search/js/bootstrap3-typeahead.min.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/search/js/cb-search.js" | prepend: site.baseurl }}"></script>
 
   <main class="clearfix">
     <div class="content">

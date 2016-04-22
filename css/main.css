@@ -43,23 +43,25 @@ a {
     line-height: 45px;
     font-size: 45px;
     font-weight: normal;
-    color: #fff; }
+    color: #fff;
+    float: left; }
   #header nav {
     vertical-align: top;
-    margin-left: 18px; }
-  #header li {
-    list-style: none;
+    margin-left: 18px;
     float: left; }
-    #header li a:hover {
-      background-color: #085FB3; }
-    #header li a {
-      display: inline-block;
-      color: #fff;
-      text-align: center;
-      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
-      height: 45px;
-      width: 54px;
-      line-height: 45px; }
+    #header nav li {
+      list-style: none;
+      float: left; }
+      #header nav li a:hover {
+        background-color: #085FB3; }
+      #header nav li a {
+        display: inline-block;
+        color: #fff;
+        text-align: center;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+        height: 45px;
+        width: 54px;
+        line-height: 45px; }
   #header .master {
     width: 120px;
     float: right;
@@ -101,6 +103,8 @@ main {
     .content .content-main .post-link {
       display: inline-block;
       margin-top: 10px; }
+    .content .content-main .post-list h2 {
+      font-weight: bold !important; }
     .content .content-main .post-list li {
       list-style: none;
       padding: 10px 0;
@@ -147,6 +151,7 @@ main {
       text-decoration: underline !important; }
 
 .pagination {
+  display: block !important;
   padding-top: 50px;
   border-top: 1px solid #eee; }
   .pagination a {
@@ -199,9 +204,9 @@ main {
 
   .content-inner {
     margin-right: 0; } }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 800px) {
   .master {
-    visibility: hidden; } }
+    display: none; } }
 .post .post-title {
   font-size: 32px;
   line-height: 45px;

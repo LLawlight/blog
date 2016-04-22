@@ -8,13 +8,15 @@ description: 天道总司的个人博客网站,前端HTML、HTML5、CSS、CSS3�
 email: me@zhaoyuxiang.cn
 author: 天道总司
 profile: 聪明在于勤奋，天才在于积累。
-#twitter_username: twitter_username
+twitter_username: zyx19936688
+weibo_username:  zhaoyuxiang
 github_username:  Clark-Zhao
 
 # Comment Service (Disqus or 多说)
 #  choose one and un-comment the line to active it
-#disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
-duoshuo_shortname: clark-zhao  
+disqus_shortname: zhaoyuxiang   
+# get one: https://disqus.com/admin/signup/
+# duoshuo_shortname: clark-zhao  
 # get one: http://duoshuo.com/create-site/
 
 permalink: /archivers/:title

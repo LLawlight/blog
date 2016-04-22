@@ -4,15 +4,17 @@
   <p class="myFont">{{ site.profile }}</p>
   <p class="contact">
     {% if site.github_username %}
-    <a href="https://github.com/{{ site.github_username }}" target="_blank">GitHub</a>
+    <a href="https://github.com/{{ site.github_username }}" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+    {% endif %}
+    {% if site.weibo_username %}
+    <a href="https://weibo.com/{{ site.weibo_username }}" target="_blank"><i class="fa fa-weibo" aria-hidden="true"></i></a>
     {% endif %}
     {% if site.twitter_username %}
-    <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">Twitter</a>
+    <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
     {% endif %}
     {% if site.email %}
-    <a href="mailto:{{ site.email }}">Email</a>
+    <a href="mailto:{{ site.email }}"><i class="fa fa-envelope" aria-hidden="true"></i></a>
     {% endif %}
-    <a href="http://zhaoyuxiang.cn/cv" target="_blank">个人简历</a>
   </p>
 
   <div class="col-box-title myFont">近期文章</div>

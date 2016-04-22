@@ -139,8 +139,10 @@ main{
 		margin: 10px 0;
 	}
 	.contact a{
+		font-size: 30px;
 		display: inline-block;
 		padding: 5px;
+		margin: 5px 0; 
 		border:1px solid #045bb2;
 		background: #0e78e7;
 	    background: -webkit-linear-gradient(top,#0e7bef,#0d73da);
@@ -153,6 +155,7 @@ main{
 		padding: 20px 0 10px 0;
 	}
 	li{
+		list-style: circle;
 		color: #222;
 		margin: 5px 0;
 		a{

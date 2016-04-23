@@ -1,7 +1,7 @@
 # Site settings
 title: 博乎
 url: "http://zhaoyuxiang.cn"    # the protocol and hostname of your site, eg. `http://clark-zhao.github.io`
-baseurl: "" # the prefix of your site uri, eg. `/jekyll-theme-BoHu` or just one slash `/`
+baseurl: "/blog" # the prefix of your site uri, eg. `/jekyll-theme-BoHu` or just one slash `/`
 #timezone: Asia/Shanghai
 description: 天道总司的个人博客网站,前端HTML、HTML5、CSS、CSS3、JavaScript、JQuery等编程经验总结分享。
 # Your information

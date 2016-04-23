@@ -28,7 +28,7 @@ layout: home
 							<span class="major">{{ site.major }}</span>
 						</div>
 						{% if site.resume %}
-						<div class="resume"><a href="{{ site.resume}}"><i class="fa fa-arrow-right" aria-hidden="true"></i><span>查看简历</span></a></div>
+						<div class="resume"><a href="{{ site.resume}}" target="_blank"><i class="fa fa-arrow-right" aria-hidden="true"></i><span>查看简历</span></a></div>
 						{% endif %}
 					</div>
 					<div class="description">{{ site.profile}}</div>
@@ -38,8 +38,8 @@ layout: home
 	</div>
 	<div class="profile-navbar clearfix">
 		<a href="{{ "/home" | prepend: site.baseurl }}"><i class="fa fa-home" aria-hidden="true"></i></a>
-		<a href="{{ "/index.html" | prepend: site.baseurl }}">博客<span>{{ site.posts.size }}</span></a>
-		<a href="{{ "/about" | prepend: site.baseurl }}">关于</a>
+		<a href="{{ "/index.html" | prepend: site.baseurl }}" target="_blank">博客<span>{{ site.posts.size }}</span></a>
+		<a href="{{ "/about" | prepend: site.baseurl }}" target="_blank">关于</a>
 	</div>
 </div>
 
@@ -55,7 +55,7 @@ layout: home
 <h2 class="category" id="{{ word }}">{{ word | upcase }}</h2>
 <ul>
 {% for post in site.categories[word] %}{% if post.title != null %}
-<li><span>{{ post.date | date: "%b %d, %Y" }}</span> » <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+<li><span>{{ post.date | date: "%b %d, %Y" }}</span> » <a href="{{ site.baseurl}}{{ post.url }}" target="_blank">{{ post.title }}</a></li>
 {% endif %}{% endfor %}
 </ul>
 {% endunless %}{% endfor %}

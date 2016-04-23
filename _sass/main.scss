@@ -130,9 +130,9 @@ main{
 	}
 }
 .sidebar{
-	width: 270px;
+	width: 280px;
 	float: left;
-	margin-left: -270px;
+	margin-left: -280px;
 	.avatar{
 		display: block;
 		margin: 0 auto;
@@ -198,7 +198,7 @@ main{
 	}
 	ul{
 		float: right;
-		@media screen and(max-width: 424px){
+		@media screen and(max-width: 500px){
 			float: left;
 		}
 		margin-right: 15px;

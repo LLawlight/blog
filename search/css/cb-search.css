@@ -1,20 +1,26 @@
-		@media screen and (min-width: 768px) {
-            .dropdown-menu {
-                display: none;
+		.dropdown-menu > li > a{
+            white-space: normal;
+            font-size: 14px;
+        }
+        @media screen and (min-width: 768px) {
+            ul.dropdown-menu {
+                display: block;
                 float: none;
                 font-size: 20px;
-                width: 600px;
-                .active{
+                width: 367px;
+                li{
                     float: none !important;
-                    width: 100% !important;
+                    width: 100%;
                     a{
+                        
+                        word-break:normal;
                         font-size: 13px !important;
                     }
                  }
             }
 
 			.search-tool ul{
-                 white-space:nowrap;
+                word-break:normal;
                  overflow:hidden;
              }
         
@@ -28,21 +34,26 @@
             }
         }
 
-        @media screen and (max-width: 767px) {
+        @media screen and (max-width: 768px) {
             .dropdown-menu {
-                font-size: 20px;
+                display: block;
+                width: 250px;
+                li a{
+                    font-size: 14px !important;
+                }
+                width: 200px;
             }
 			.search-tool ul{ 
-				width: 250px;
-				white-space:nowrap; 
-				overflow:hidden; 
+				word-break:normal;
                 li a{
+                    word-break:normal;
                     display: block;
 				    text-overflow: ellipsis;
                 }
 			}
 
             .search-content {
+                width: 250px;
                 font-size: 22px;
                 background-color: #eee;
                 color: black;

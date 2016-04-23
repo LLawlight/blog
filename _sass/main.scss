@@ -353,7 +353,125 @@ div.go-top div.stick {
     -moz-border-radius: 1px;
     border-radius: 1px;
 }
-
+/* 首页 */
+.profile{
+	min-width: 280px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 #f2f4f5;
+    color: #666;
+    margin: 0 0 25px;
+    .profile-main{
+    	padding: 12px 18px;
+    	.top{
+    		margin-bottom: 10px;
+    		.name{
+    			font-weight: bold;
+    			color: #222;
+    		}
+    	}
+    	.profile-info-wrap{
+    		margin-left: 115px;
+    	}
+    	.profile-avatar{
+    		float: left;
+    	}
+    	.profile-avatar{
+		    border-radius: 4px;
+		    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3) inset;
+		    height: 100px;
+		    overflow: hidden;
+		    position: relative;
+		    width: 100px;
+    	}
+    	.items>div{
+    		line-height: 1;
+    		span + span::before {
+			    content: "|";
+			    margin-right: 3px;
+			    padding: 0px 3px;
+			    font-family: Arial;
+			    color: rgb(187, 187, 187);
+			}
+			span{
+				font-size: 13px;
+			}
+    	}
+    	i{
+    		font-size: 13px;
+    	}
+    	.place-domain-sex>i{
+    		margin-right: 11px;
+    	}
+    	.company-position>i{
+    		margin-right: 5px;
+    	}
+    	.resume>a>i{
+    		color: #666;
+    		margin-right: 11px;
+    	}
+    	.company-position,.school-major,.resume{
+    		margin-top: 6px;
+    	}
+    	.description{
+		    border-top: 1px dotted #eee;
+		    margin: 10px -18px 0 0;
+		    overflow: hidden;
+		    padding: 12px 15px 0 0; 
+		    font-size: 13px;
+    	}
+    }
+    .profile-navbar{
+    	height: 45px;
+    	background-color: #fcfcfc;
+	    border-radius: 0 0 4px 4px;
+	    border-top: 1px solid #ddd;
+	    box-shadow: 0 2px 2px #f0f0f0 inset;
+	    &>a{
+	    	display: inline-block;
+	    	float: left;
+	    	color: #666;
+	    	font-size: 14px;
+		    font-weight: 700;
+		    line-height: 22px;
+		    padding: 12px 20px;
+		    text-align: center;
+		    text-decoration: none;
+		    span{
+		    	color: #999;
+		    	font-size: 14px;
+		    	margin-left: 5px;
+		    }
+	    }
+	    &>a:hover{
+	    	background-color: #f7f7f7;
+	    }
+    }
+}
+.home-category{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 #f2f4f5;
+    margin-top: 25px;
+	.page-heading{
+		border-bottom: 1px solid #eee;
+	    overflow: hidden;
+	    padding: 7px 14px;
+	    font-size: 14px;
+	    margin: 0;
+	}
+	.post-list{
+		padding: 0 14px;
+		.category{
+			font-size: 18px;
+			font-weight: bold;
+		}
+	}
+	ul>li{
+		list-style: none;
+	}
+}
+/* 代码样式 */
 pre, pre code {
     color: #fafafa !important;
     background-color: #223 !important;

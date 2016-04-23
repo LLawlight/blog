@@ -308,6 +308,102 @@ div.go-top div.stick {
   -moz-border-radius: 1px;
   border-radius: 1px; }
 
+/* 棣栭〉 */
+.profile {
+  min-width: 280px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 1px 0 #f2f4f5;
+  color: #666;
+  margin: 0 0 25px; }
+  .profile .profile-main {
+    padding: 12px 18px; }
+    .profile .profile-main .top {
+      margin-bottom: 10px; }
+      .profile .profile-main .top .name {
+        font-weight: bold;
+        color: #222; }
+    .profile .profile-main .profile-info-wrap {
+      margin-left: 115px; }
+    .profile .profile-main .profile-avatar {
+      float: left; }
+    .profile .profile-main .profile-avatar {
+      border-radius: 4px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3) inset;
+      height: 100px;
+      overflow: hidden;
+      position: relative;
+      width: 100px; }
+    .profile .profile-main .items > div {
+      line-height: 1; }
+      .profile .profile-main .items > div span + span::before {
+        content: "|";
+        margin-right: 3px;
+        padding: 0px 3px;
+        font-family: Arial;
+        color: #bbbbbb; }
+      .profile .profile-main .items > div span {
+        font-size: 13px; }
+    .profile .profile-main i {
+      font-size: 13px; }
+    .profile .profile-main .place-domain-sex > i {
+      margin-right: 11px; }
+    .profile .profile-main .company-position > i {
+      margin-right: 5px; }
+    .profile .profile-main .resume > a > i {
+      color: #666;
+      margin-right: 11px; }
+    .profile .profile-main .company-position, .profile .profile-main .school-major, .profile .profile-main .resume {
+      margin-top: 6px; }
+    .profile .profile-main .description {
+      border-top: 1px dotted #eee;
+      margin: 10px -18px 0 0;
+      overflow: hidden;
+      padding: 12px 15px 0 0;
+      font-size: 13px; }
+  .profile .profile-navbar {
+    height: 45px;
+    background-color: #fcfcfc;
+    border-radius: 0 0 4px 4px;
+    border-top: 1px solid #ddd;
+    box-shadow: 0 2px 2px #f0f0f0 inset; }
+    .profile .profile-navbar > a {
+      display: inline-block;
+      float: left;
+      color: #666;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 22px;
+      padding: 12px 20px;
+      text-align: center;
+      text-decoration: none; }
+      .profile .profile-navbar > a span {
+        color: #999;
+        font-size: 14px;
+        margin-left: 5px; }
+    .profile .profile-navbar > a:hover {
+      background-color: #f7f7f7; }
+
+.home-category {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 1px 0 #f2f4f5;
+  margin-top: 25px; }
+  .home-category .page-heading {
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+    padding: 7px 14px;
+    font-size: 14px;
+    margin: 0; }
+  .home-category .post-list {
+    padding: 0 14px; }
+    .home-category .post-list .category {
+      font-size: 18px;
+      font-weight: bold; }
+  .home-category ul > li {
+    list-style: none; }
+
+/* 浠ｇ爜鏍峰紡 */
 pre, pre code {
   color: #fafafa !important;
   background-color: #223 !important; }

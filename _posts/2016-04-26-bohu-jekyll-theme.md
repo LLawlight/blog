@@ -40,7 +40,7 @@ permalink: /archivers/bohu-jekyll-theme
 **必填信息**：   
 title： 博客的名字   
 author： 博主的名字    
-baseurl： 博客的根地址==你的文件夹名称（默认为buhu-jekyll-theme），如果你更改了文件夹名称，请把此处也修改掉。  
+baseurl： 博客的根地址==你的文件夹名称（默认为bohu-jekyll-theme），如果你更改了文件夹名称，请把此处也修改掉。  
 description： head中的网页描述信息。简要描述你的网站，让搜索引擎能更好的收录你的网站。   
 
 **选填信息**：   

@@ -10,6 +10,7 @@ layout: default
 
   <article class="post-content">
     {{ content }}
+    <p>转载请注明出处：<br /><a href="{{ page.url | prepend: site.baseurl }}" style="word-break: break-all;">http://zhaoyuxiang.cn/blog{{ page.url }}</a></p>
   </article>
   
   {% include comment.html %}

@@ -4,7 +4,7 @@ title:  "原生JS之addLoadEvent：共享onload事件"
 author: 天道总司
 date:   2016-03-09
 categories: JavaScript
-permalink: /archivers/addLoaEvent
+permalink: /archivers/addLoadEvent
 ---
   
 　　当我们需要让一个函数在网页加载完毕之后立即执行，通常会让网页在加载完毕时触发一个onload事件：   

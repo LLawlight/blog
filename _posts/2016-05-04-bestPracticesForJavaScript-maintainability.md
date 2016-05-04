@@ -3,7 +3,7 @@ layout: post
 title:  "JavaScript最佳实践：可维护性"
 author: 天道总司
 date:   2016-05-04
-categories: 生活
+categories: JavaScript
 permalink: /archivers/bestPracticesForJavaScript-maintainability
 ---
 

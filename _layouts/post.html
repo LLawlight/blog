@@ -11,6 +11,14 @@ layout: default
   <article class="post-content">
     {{ content }}
     <p>转载请注明出处：<a href="{{ page.url | prepend: site.baseurl }}" style="word-break: break-all;">http://zhaoyuxiang.cn/blog{{ page.url }}</a></p>
+	<ul class="pageNP">
+	{% if page.previous %}
+    <li class="pagePrevious">上一篇：<a href="{{ page.previous.url | prepend: site.baseurl }}">{{ page.previous.title }}</a></li>
+    {% endif %}
+    {% if page.next %}
+    <li class="pageNext">下一篇；<a href="{{ page.next.url | prepend: site.baseurl }}">{{ page.next.title }}</a></li>
+    {% endif %}
+    </ul>
   </article>
   
   {% include comment.html %}

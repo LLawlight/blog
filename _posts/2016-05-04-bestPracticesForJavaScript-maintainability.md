@@ -7,19 +7,19 @@ categories: JavaScript
 permalink: /archivers/bestPracticesForJavaScript-maintainability
 ---
 
-# 代码约定 #
+## 代码约定 ##
 
-## 一、可读性    
+### 一、可读性    
 
 - 代码缩进   
 - 包含注释      
 
-## 二、变量和函数命名
+### 二、变量和函数命名
 
 - 变量名应为名词如car或person   
 - 函数名应该以动词开始，如getName()。返回布尔类型值的函数一般以is开头，如isEnable()。   
 
-## 三、变量类型透明   
+### 三、变量类型透明   
 
 1.通过初始化指定变量类型   
 
@@ -38,14 +38,14 @@ permalink: /archivers/bestPracticesForJavaScript-maintainability
 
 ----------
 
-# 松散耦合 #
+## 松散耦合 ##
 
-## 一、解耦HTML/JavaScript
+### 一、解耦HTML/JavaScript
 
 - 避免使用包含内联代码的<script\>元素或者是使用HTML属性来分配事件处理程序。
 - 避免在JavaScript中创建大量HTML。   
 
-## 二、解耦CSS/JavaScript   
+### 二、解耦CSS/JavaScript   
 
     //CSS对JavaScript的紧密耦合
     element.style.color = "red";
@@ -56,7 +56,7 @@ permalink: /archivers/bestPracticesForJavaScript-maintainability
     //CSS对JavaScript的松散耦合
     element.className = "edit";
 
-## 三、解耦应用逻辑/事件处理程序   
+### 三、解耦应用逻辑/事件处理程序   
 一个例子：
 
     function handleKeyPress(event){
@@ -94,16 +94,16 @@ permalink: /archivers/bestPracticesForJavaScript-maintainability
 
 ----------
 
-# 编程实践
+## 编程实践 ##
 
-## 一、尊重对象所有权   
+### 一、尊重对象所有权   
 在企业环境中最重要的编程实践就是尊重对象所有权，它的意思是你不能修改不属于你的对象。如果你不负责创建或维护某个对象、它的对象或者它的方法，那么你就不能对它们进行修改。
 
 - 不要为实例或原型添加属性；
 - 不要为实例或原型添加方法；
 - 不要重定义已存在的方法；   
 
-## 二、避免全局变量
+### 二、避免全局变量
 
     //两个全局变量——避免！
     var URL = "zhaoyuxiang.cn";
@@ -121,7 +121,7 @@ permalink: /archivers/bestPracticesForJavaScript-maintainability
     	}
     };
 
-## 三、使用常量   
+### 三、使用常量   
 一个例子：
 
     function validate(value){

@@ -1,7 +1,7 @@
 html,body,header,main,footer,h1,p,nav,div,ul,li,a,img,span{
 	margin: 0;
 	padding: 0;
-	font-size: 18px;
+	font-size: 16px;
 	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 a{text-decoration: none !important;}
@@ -83,6 +83,9 @@ main{
 	}
 	margin: 0 auto;
 	padding: 25px 0 50px 0;
+}
+.post-excerpt *{
+	font-size: 14px;
 }
 .content{
 	float: left;

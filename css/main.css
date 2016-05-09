@@ -2,7 +2,7 @@
 html, body, header, main, footer, h1, p, nav, div, ul, li, a, img, span {
   margin: 0;
   padding: 0;
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; }
 
 a {
@@ -86,6 +86,9 @@ main {
   @media screen and (min-width: 960px) {
     main {
       width: 960px; } }
+
+.post-excerpt * {
+  font-size: 14px; }
 
 .content {
   float: left; }

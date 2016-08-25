@@ -13,7 +13,7 @@ company: Jeeyoo
 position: Technical Support
 school: 浙江科技学院
 major: 测控技术与仪器
-resume: "http://zhaoyuxiang.cn/cv"
+# resume: "http://zhaoyuxiang.cn/cv"
 profile: 聪明在于勤奋，天才在于积累。
 twitter_username: zyx19936688
 weibo_username:  zhaoyuxiang
@@ -21,9 +21,9 @@ github_username:  Clark-Zhao
 
 # Comment Service (Disqus or 多说)
 #  choose one and un-comment the line to active it
-# disqus_shortname: zhaoyuxiang   
+# disqus_shortname: zhaoyuxiang
 # get one: https://disqus.com/admin/signup/
-duoshuo_shortname: clark-zhao  
+duoshuo_shortname: clark-zhao
 # get one: http://duoshuo.com/create-site/
 
 permalink: /archivers/:title
